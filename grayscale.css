@@ -7,8 +7,8 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 html {
   width: 100%;
@@ -23,23 +23,26 @@ h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 20;
   letter-spacing: 1px;
+  color: grey;
 }
 p {
-  margin: 0 0 25px;
-  font-size: 18px;
+  margin: 0 0 45px;
+  font-size: 14px;
   line-height: 1.5;
+  color: grey;
+  text-align: left;
 }
 @media (min-width: 768px) {
   p {
-    margin: 0 0 35px;
+    margin: 8px 0 7px;
     font-size: 20px;
     line-height: 1.6;
   }
 }
 a {
-  color: #42DCA3;
+  color: #FFFFFF;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -50,17 +53,17 @@ a:focus {
   color: #1d9b6c;
 }
 .light {
-  font-weight: 400;
+  font-weight: 200;
 }
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: white;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: black;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -75,7 +78,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -83,37 +86,37 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: grey;
   outline: none;
-  background-color: transparent;
+  background-color: white;
 }
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: none;
-  background-color: transparent;
+  background-color: white;
 }
 .navbar-custom .nav li.active {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: white;
 }
 .navbar-custom .nav li.active a:hover {
-  color: white;
+  color: black;
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
+    background: white;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: white;       
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
@@ -121,10 +124,10 @@ a:focus {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 0;
   text-align: center;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: whitesmoke;
 
 }
 .intro .intro-body {
@@ -139,8 +142,9 @@ a:focus {
 }
 @media (min-width: 768px) {
   .intro {
+	margin-top:10px;
     height: 100%;
-    padding: 0;
+    padding: 10px 0;
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
@@ -152,12 +156,12 @@ a:focus {
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
+  margin-top: 0px;
+  padding: 0px 0px;
+  border: 2px solid grey;
   border-radius: 100% !important;
   font-size: 60px;
-  color: white;
+  color: grey;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -166,7 +170,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: white;
+  color: grey;
   background: rgba(255, 255, 255, 0.1);
 }
 .btn-circle i.animated {

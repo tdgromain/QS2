@@ -30,11 +30,14 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('360 Research.qvf', config);
 
 	//get objects -- inserted here --
-	app.getObject('QV05','e2fd1469-0d49-4763-9348-281fdbc880ce');
-	app.getObject('QV06','14a7e8c7-62b4-428d-b529-97855226e752');
+	app.getObject('QV05','db7c430f-c245-4cad-9f91-8db9f43a008f');
+	
+	
+	
+	
 	app.getObject('QV01','e2fd1469-0d49-4763-9348-281fdbc880ce');
 	app.getObject('QV02','e2fd1469-0d49-4763-9348-281fdbc880ce')
-	app.getObject('CurrentSelections','CurrentSelections');
+	
 	
 	
 	//create cubes and lists -- inserted here --
